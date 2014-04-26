@@ -9,6 +9,15 @@
 
 On top of that, we'd love to make it a fun pack to play on!
 
+### Testing
+
+The pack is still in heavy development, but if you would like to test it:
+
+* either grab [our local build of MCUpdater](http://fossil.asie.pl/MCUpdater.jar),
+* or manually add our repository to [MCUpdater](http://mcupdater.com/):
+
+        http://fossil.asie.pl/files/ServerPack.xml
+
 ### Generation/Forking
 
 1. Fork the repository.
