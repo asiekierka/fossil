@@ -15,7 +15,7 @@
 #AchievementID = used Achievement index.(0 = Disable)
 #UniqueEntityId = UniqueEntityId(0 is AutoAssigned. max 255)
 #
-#Sat Apr 26 08:35:46 CEST 2014
+#Sat Apr 26 14:15:06 CEST 2014
 cfg_DebugMessage=true
 cfg_DeathMessage=true
 cfg_defaultTexture=

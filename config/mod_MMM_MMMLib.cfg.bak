@@ -2,7 +2,7 @@
 #cfg_startVehicleEntityID = starting auto assigned ID.
 #cfg_isModelAlphaBlend = true: AlphaBlend(request power), false: AlphaTest(more fast)
 #
-#Sat Apr 26 08:35:46 CEST 2014
+#Sat Apr 26 14:15:06 CEST 2014
 cfg_isModelAlphaBlend=true
 cfg_startVehicleEntityID=2176
 cfg_isDebugView=false
