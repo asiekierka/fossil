@@ -2,7 +2,7 @@
 
 ### Introduction
 
-**Fossil** is a modpack by asie centered around being fully open and free to modify and fork by all of its users. It accomplishes this goal in a few ways:
+**Fossil** (Free Open-Source Software I Love) is a modpack by asie centered around being fully open and free to modify and fork by all of its users. It accomplishes this goal in a few ways:
 
 * Using MCUpdater and an easy-to-use pack generation system,
 * Using only open-source mods (with permissions to use, modify, redistribute originals and modified copies).
@@ -13,7 +13,7 @@ On top of that, we'd love to make it a fun pack to play on!
 
 1. Fork the repository.
 2. Edit config.json to configure your version of the pack.
-2. Run
+3. Run
 
         $ npm install
         $ node fossil
@@ -23,6 +23,8 @@ On top of that, we'd love to make it a fun pack to play on!
 ### Support
 
 All bug reports, crashlogs and issues when running the modpack should be opened in this repository's issues.
+
+To see a list of all the mods used in the pack, try [this GDoc](https://docs.google.com/spreadsheet/ccc?key=0AuqVyNf3BeXLdHNXYkxQTTRITEoyc0kwUC1pY3lDWkE&usp=drive_web).
 
 ### Licensing
 
