@@ -50,11 +50,12 @@ modsCommon = modsCommon.sort(function(a,b) {
 util.say("info", "- adding and copying mods");
 _.each(_.union(modsCommon, modsClient, modsServer), function(mod) {
 	util.say("info", "- - " + mod.filename);
+	var id = path.basename(mod.filename, path.extname(mod.filename));
 	var name = mod.name + (_.has(mod, "version") ? (" " + mod.version) : "");
-	var module = server.ele("Module", {"id": mod.id, "name": name, "side": mod.side});
+	var module = server.ele("Module", {"id": id, "name": name, "side": mod.side});
 	module.ele("URL", {"priority": 0}, config.packBaseURL + mod.filename);
 	module.ele("Required", {"isDefault": true}, (mod.side == "BOTH"));
-	module.ele("ModType", "Regular");
+	module.ele("ModType", path.extname(mod.filename).indexOf("litemod") >= 0 ? "Litemod" : "Regular");
 	module.ele("MD5", util.md5(mod.location));
 	var meta = module.ele("Meta");
 	if(_.has(mod, "authors")) {
@@ -69,7 +70,7 @@ _.each(_.union(modsCommon, modsClient, modsServer), function(mod) {
 var configModule = server.ele("Module", {"id": "config", "name": "Configuration Files", "side": "BOTH"});
 configModule.ele("URL", {"priority": 0}, config.packBaseURL + "config.zip");
 configModule.ele("Required", {"isDefault": true}, true);
-configModule.ele("ModType", "Extract");
+configModule.ele("ModType", {"inRoot": true}, "Extract");
 configModule.ele("MD5", util.md5("output/web/config.zip"));
 
 fs.writeFileSync("output/web/ServerPack.xml", server.end({"pretty": true, "indent": "    "}));
