@@ -1,0 +1,79 @@
+{
+	"names": {"minelp": "Mine Little Pony"},
+	"filenames": {
+		"^SoulShards-(\\d+\\.\\d+\\.\\d+)-universal-srg\\.jar$": {
+			"authors": ["ShadwDrgn"],
+			"description": "Soul Shards allows you to create a Soul Shard that absorbs the souls of monsters you kill to be inserted into a Soul Cage later. This Soul Cage is a special block that can spawn the type of mob your Soul Shard was absorbing, usually at much better rates than a vanilla monster spawner.",
+			"id": "SoulShards", "name": "SoulShards", "type": "Forge",
+			"url": "http://www.minecraftforum.net/topic/1475847-162-forgeirc-v1018-soul-shards-v1039-and-recipe-remover-v11-updated-9162013/",
+			"version": 1
+		},
+		"^More Pistons - (\\d\\.\\d\\.\\d) - (\\d+\\.\\d+\\.\\d+) build Smeagol\\.zip$": {
+			"authors": ["MontyPylon", "Smeagol"],
+			"description": "More Pistons is a mod that adds new types of pistons.",
+			"id": "MorePistons", "name": "More Pistons", "type": "Forge",
+			"url": "http://www.minecraftforum.net/topic/1794925-16x-15x-forge-more-pistons-141-build-by-smeagol/",
+			"version": 2
+		},
+		"^MFFS_v(3\\.\\d+\\.\\d+\\.\\d+|3\\.\\d+\\.\\d+)\\.jar$": {
+			"authors": ["Calclavia", "Thunderdark", "Thutmose", "Briman", "Comply_cat_Ed", "Sweet Walrus", "mousecop", "mr_hazard", "Archtikz"],
+			"description": "Modular Force Field System is a Minecraft mod that brings in modular force fields into Minecraft. Ever tired of nuclear explosions blowing up your house or want to prevent people from entering your secret bases? May the mass times acceleration be with you!",
+			"id": "MFFSv3", "name": "Modular Force Field System",
+			"type": "Forge", "version": 1,
+			"url": "http://universalelectricity.com/mffs"
+		},
+		"^Paintings\\+\\+ (\\d\\.\\d\\.\\d) v(\\d+)\\.zip$": {
+			"authors": ["Subaraki"],
+			"description": "Paintings++ is a mod that adds more paintings.",
+			"id": "PaintingsPlusPlus", "name": "Paintings++",
+			"type": "Forge", "version": 2,
+			"url": "http://www.minecraftforum.net/topic/1617109-162-subarakis-paintings-no-more-bugs/"
+		},
+		"^StevesCarts(\\d\\.\\d\\.\\d+\\.a\\d+)\\.zip$": {
+			"authors": ["Vswe"],
+			"description": "Steve's Carts 2 introduces a modular system where you can build a huge amount of carts(hundreds of millions) by combining the parts you want.",
+			"id": "StevesCarts", "name": "Steve's Carts",
+			"type": "Forge", "version": 1,
+			"url": "http://stevescarts2.wikispaces.com"
+		},
+		"miscperipherals-(\\d\\.\\d[a-z]?\\d?)\\.(zip|jar)": {
+			"authors": ["RichardG867"],
+			"description": "MiscPeripherals is a ComputerCraft addon that adds many peripherals.",
+			"id": "MiscPeripherals", "name": "MiscPeripherals",
+			"type": "Forge", "version": 1,
+			"url": "http://www.computercraft.info/forums2/index.php?/topic/4587-cc153mc152-miscperipherals-33/"
+		},
+		"^ZansMinimap(\\d\\.\\d\\.\\d)\\.zip$": {
+			"authors": ["MamiyaOtaru"],
+			"description": "Zan's Minimap is a minimap for Minecraft, also known as VoxelMap.",
+			"id": "ZansMinimap", "name": "Zan's Minimap",
+			"type": "Forge", "version": 1,
+			"url": "http://www.minecraftforum.net/topic/1116564-164-162-mamiyaotarus-mods-zans-minimap-voxelmap-chatbubbles-etc/"
+		},
+		"^\\[(\\d\\.\\d\\.\\d)\\] Rei's Minimap (\\d\\.\\d_?\\d*)\\.zip$": {
+			"authors": ["ReiFNSK"],
+			"description": "Rei's Minimap is a minimap for Minecraft.",
+			"id": "ReisMinimap", "name": "Rei's Minimap",
+			"type": "Forge", "version": 2,
+			"url": "http://www.minecraftforum.net/topic/482147-162-jul08-reis-minimap-v34-01/"
+		},
+		"^EnderIO-(\\d\\.\\d\\.\\d)-(\\d*\\.\\d*\\.\\d*\\.\\d*)\\.jar$": {
+			"version": 2
+		},
+		"^Artifice-(\\d\\.\\d\\.\\d-\\d+)\\.jar$": {
+			"version": 1
+		},
+		"^OpenPeripheral-(\\d\\.\\d\\.\\d-snapshot-\\d+)-forge.*\\.jar$": {
+			"version": 1
+		},
+		"^Natura_.*_(\\d\\.\\d+\\.\\d+\\.?\\d*)\\.jar$": {
+			"version": 1
+		},
+		"^\\[CC\\d\\.\\d+\\]RedIO\\[v(\\d\\.\\d+)\\]\\.zip$": {
+		  "id": "RedIO", "name": "RedIO",
+		  "version": 1, "type": "Forge",
+		  "description": "RedIO adds a single block that can read and output a redstone signal by communicating with a computercraft computer over a wired network. Exposes the functions:  set(int), set(boolean), get(), analogGet()",
+		  "authors": ["Joseph 'Nuchaz' Sinclair"]
+		}
+	}
+}

@@ -1,0 +1,15 @@
+{
+  "name": "fossilgen",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "ansi": ">=0.2.0",
+    "underscore": ">=1.4.0",
+    "wrench": "1.5.x",
+    "adm-zip": "git+https://github.com/cthackers/adm-zip.git",
+    "async": ">=0.2.9",
+    "js-yaml": ">=2.1.0",
+    "xmlbuilder": "0.4.x"
+  }
+}
+
